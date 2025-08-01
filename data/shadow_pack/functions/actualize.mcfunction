@@ -1,0 +1,9 @@
+execute as @a unless score @s OSARIA = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION1,limit=1] OSARIA run scoreboard players operation @a[tag=ADMIN] OSARIA = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION1] OSARIA
+execute as @a unless score @s AINCRAD = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION2,limit=1] AINCRAD run scoreboard players operation @a[tag=ADMIN] AINCRAD = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION2] AINCRAD
+execute as @a unless score @s Kraken = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION3,limit=1] Kraken run scoreboard players operation @a[tag=ADMIN] Kraken = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION3] Kraken
+execute as @a unless score @s UNKNOW = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION4,limit=1] UNKNOW run scoreboard players operation @a[tag=ADMIN] UNKNOW = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION4] UNKNOW
+
+execute as @a unless score @s OldOSARIA = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION1,limit=1] OldOSARIA run scoreboard players operation @a[tag=ADMIN] OldOSARIA = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION1] OldOSARIA
+execute as @a unless score @s OldAINCRAD = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION2,limit=1] OldAINCRAD run scoreboard players operation @a[tag=ADMIN] OldAINCRAD = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION2] OldAINCRAD
+execute as @a unless score @s OldKraken = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION3,limit=1] OldKraken run scoreboard players operation @a[tag=ADMIN] OldKraken = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION3] OldKraken
+execute as @a unless score @s OldUNKNOW = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION4,limit=1] OldUNKNOW run scoreboard players operation @a[tag=ADMIN] OldUNKNOW = @e[type=armor_stand,tag=SCORES,tag=MEMORY,tag=FACTION4] OldUNKNOW

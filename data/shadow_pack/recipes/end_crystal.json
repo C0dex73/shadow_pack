@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "aba",
+        "aca"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:glass"
+        },
+        "b": {
+            "item": "minecraft:ender_pearl"
+        },
+        "c": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_crystal",
+        "count": 1
+    }
+}
